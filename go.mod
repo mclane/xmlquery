@@ -1,4 +1,4 @@
-module github.com/antchfx/xmlquery
+module github.com/mclane/xmlquery
 
 go 1.14
 

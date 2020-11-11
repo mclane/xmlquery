@@ -14,7 +14,7 @@ import (
 	"golang.org/x/net/html/charset"
 )
 
-var xmlMIMERegex = regexp.MustCompile(`(?i)((application|image|message|model)/((\w|\.|-)+\+?)?|text/)(wb)?xml`)
+var xmlMIMERegex = regexp.MustCompile(`(?i)((application|image|message|model)/((\w|\.|-)+\+?)?|text/)(wb)?kmz`)
 
 // LoadURL loads the XML document from the specified URL.
 func LoadURL(url string) (*Node, error) {
